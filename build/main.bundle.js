@@ -74,10 +74,28 @@
 
 
 var LENGTH = 5;
-var key = '123';
+var ALPHABET = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I/J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+var key = null;
+var digraphs = null;
+var square = null;
 
 var keySanitizer = function keySanitizer(key) {
-    key;
+    //remove spaces and duplicate letters
+};
+var makeSquare = function makeSquare() {
+    //makes the encryption square
+};
+
+var column = function column() {
+    // check wheterh the latters are in the same columns
+};
+var row = function row() {
+    // check wheter the letters are in the same row
+};
+
+var rectangle = function rectangle() {
+    //encrypts the digraph pair based on opposite corners inside a square
 };
 
 keySanitizer(key);
